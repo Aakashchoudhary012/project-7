@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo img {
+  width: 150px;
+  height: auto;
+}
+.center-nav {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search input {
+  min-width: 600px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+}
+.search button {
+  border: none;
+  padding: 10px 20px;
+}
+.mic {
+  padding: 15px;
+  border-radius: 50%;
+  background: #f8f3f3;
+  display: grid;
+  place-items: center;
+  margin-left: 32px;
+}
+.mic img {
+  width: 30px;
+}
+.side-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  margin-right: 45px;
+}
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 18px;
+  border-top: 1px solid #ccc;
+}
+.tag {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(22, 22, 22);
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.light {
+  background: rgb(238, 238, 238);
+  color: rgb(67, 67, 67);
+}
+.container {
+  display: flex;
+}
+
+aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.side-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bars {
+  margin-top: 17px;
+}
+.side-icons img {
+  width: 25px;
+}
+.side-icons p {
+  font-size: 10px;
+  margin-top: 5px;
+}
+.main-container {
+  width: 100%;
+}
+
+main {
+  min-width: 100vh;
+  background: rgb(129, 129, 129);
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.card {
+  padding: 10px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.avtar-content {
+  padding-top: 10px;
+  display: flex;
+  gap: 4px;
+}
+.card h3 {
+  font-size: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.channel-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.content-status {
+  display: flex;
+  font-size: 12px;
+  gap: 8px;
+}
